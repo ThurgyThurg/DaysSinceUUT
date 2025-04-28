@@ -1,0 +1,74 @@
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.timer {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #444;
+}
+
+button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.message {
+    color: #666;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    
+    .timer {
+        font-size: 1.5rem;
+    }
+    
+    button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}

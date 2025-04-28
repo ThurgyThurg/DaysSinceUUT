@@ -1,0 +1,13 @@
+{
+  "name": "days-since-uut",
+  "version": "1.0.0",
+  "description": "Timer tracking days since last UUT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.15.6"
+  }
+}
